@@ -1,5 +1,6 @@
 body{
     font-family: 'IBM Plex Mono', monospace;
+    background-color: #000000;
 }
 
 .container{
@@ -85,7 +86,7 @@ body{
 /* Recent projects */
 .recent-projects{
     padding-top: 150px;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 
 .container h2{
@@ -145,7 +146,7 @@ body{
     width: 582px;
     height: 153px;
 
-    
+
 
     font-weight: 400;
     font-size: 30px;

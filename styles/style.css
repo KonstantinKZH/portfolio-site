@@ -1,0 +1,8 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.resume{
+    height: 765px;
+    background-image: url('../resources/images/img1.png');
+}

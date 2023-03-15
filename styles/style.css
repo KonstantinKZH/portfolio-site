@@ -81,3 +81,78 @@ body{
     line-height: 70px;
     color: #1BFF07;
 }
+
+/* Recent projects */
+.recent-projects{
+    padding-top: 150px;
+    background-color: #000000;
+}
+
+.container h2{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.image-background{
+    height: 550px;
+
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.image-background:nth-child(4){
+    margin-bottom: 80px;
+}
+
+.image-background__img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.image-background__header{
+    position: absolute;
+    left: 50px;
+    top: 410px;
+
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+
+.image-background__paragraph{
+    position: absolute;
+    left: 50px;
+    top: 461px;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.link-btn{
+    display: block;
+    width: 582px;
+    height: 153px;
+
+    
+
+    font-weight: 400;
+    font-size: 30px;
+
+    line-height: 153px;
+    text-align: center;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+    border-radius: 10px;
+}

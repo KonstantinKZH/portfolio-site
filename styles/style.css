@@ -2,6 +2,11 @@ body{
     font-family: 'IBM Plex Mono', monospace;
 }
 
+.container{
+    width: 1155px;
+    margin: 0 auto;
+}
+
 .resume{
     height: 765px;
     background-image: url('../resources/images/img1.png');

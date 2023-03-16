@@ -260,3 +260,40 @@ body{
     line-height: 29px;
     color: #ffffff;
 }
+
+/* For communication */
+.for-communication{
+    height: 717px;
+    position: relative;
+    background-image: url('../resources/images/for-communication/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.for-communication-item{
+    position: absolute;
+    top: 320px;
+}
+
+.for-communication-item__text{
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.for-communication-item__link{
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.for-communication-item__link:nth-child(4){
+    margin-bottom: 0px;
+}

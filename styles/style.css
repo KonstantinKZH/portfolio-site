@@ -60,6 +60,7 @@ body{
 }
 
 .links__link{
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -69,7 +70,28 @@ body{
 }
 
 .links__link:hover{
-    opacity: 0.5;
+    color: #1BFF07;
+}
+
+.links__link::after{
+    display: none;
+    content: "";
+
+    width: 100%;
+    height: 0.5px;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    border: 1px solid #1BFF07;
+    background-color: #1BFF07;
+    z-index: 1;
+}
+
+.links__link:hover::after{
+    display: block;
+    z-index: 1;
 }
 
 .type-activity{

@@ -263,6 +263,7 @@ body{
 
 /* For communication */
 .for-communication{
+    margin-bottom: 150px;
     height: 717px;
     position: relative;
     background-image: url('../resources/images/for-communication/image.png');
@@ -296,4 +297,30 @@ body{
 
 .for-communication-item__link:nth-child(4){
     margin-bottom: 0px;
+}
+
+/* Footer */
+footer{
+    background-color: #FFFFFF;
+}
+
+.footer__portfolio{
+    margin-bottom: 66px;
+    padding-top: 76px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.all-rights-reserved{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+
+    opacity: 0.5;
 }

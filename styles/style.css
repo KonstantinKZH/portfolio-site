@@ -162,6 +162,13 @@ body{
     border: 1px solid #1BFF07;
     color: #1BFF07;
     border-radius: 10px;
+    transition: .3s ease;
+}
+
+.link-btn:hover{
+    color: #000000;
+    border: 1px solid #1BFF07;
+    background-color: #1BFF07;
 }
 
 

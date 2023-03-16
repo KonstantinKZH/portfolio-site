@@ -89,7 +89,7 @@ body{
     padding-top: 150px;
 }
 
-.container h2{
+.recent-projects__header{
     margin-bottom: 40px;
     font-weight: 400;
     font-size: 55px;
@@ -205,4 +205,58 @@ body{
 
 .competencies__paragraph:nth-child(3){
     margin-bottom: 0;
+}
+
+/* Problem solving help */
+.problem-solving-help{
+    margin-bottom: 150px;
+}
+
+.problem-solving-help__header{
+    margin-bottom: 74px;
+    width: 420px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+.tasks-to-be-solved{
+    margin-bottom: 74px;
+}
+
+.tasks-to-be-solved:nth-child(4){
+    margin-bottom: 0;
+}
+
+.tasks-to-be-solved__margin-bottom{
+    margin-bottom: 137px;
+}
+
+.name-and-description-of-tasks{
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.name-and-description-of-tasks__inner{
+    width: 1048px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.name-task{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    color: #1BFF07;
+}
+
+.task-description{
+    max-width: 755px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #ffffff;
 }

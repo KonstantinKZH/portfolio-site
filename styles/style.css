@@ -65,6 +65,11 @@ body{
     line-height: 23px;
     text-decoration: none;
     color: #ffffff;
+    transition: .3s ease;
+}
+
+.links__link:hover{
+    opacity: 0.5;
 }
 
 .type-activity{

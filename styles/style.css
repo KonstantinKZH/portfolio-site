@@ -328,11 +328,18 @@ body{
     line-height: 60px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: .3s ease;
 }
 
 .for-communication-item__link:nth-child(4){
     margin-bottom: 0px;
 }
+
+.for-communication-item__link:hover{
+    color: #1BFF07;
+}
+
+
 
 /* Footer */
 footer{

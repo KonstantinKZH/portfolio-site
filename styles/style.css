@@ -28,21 +28,24 @@ body{
 }
 
 .black-background{
+    display: inline-block;
     margin-right: 507px;
-    width: 130px;
-    display: block;
+    height: 39px;
     border-radius: 100px;
     background-color: #000000;
 }
 
 .logo-link{
-    padding-left: 9px;
-    font-weight: 700;
-    font-size: 42.4138px;
-    line-height: 39px;
-    letter-spacing: -0.11em;
-    text-transform: uppercase;
     text-decoration: none;
+}
+
+.logo-name{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 42.4138px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
     color: #1BFF07;
 }
 

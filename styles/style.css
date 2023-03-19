@@ -3,8 +3,8 @@ html{
 }
 body{
     font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'Manrope', sans-serif; */
     background-color: #000000;
-    letter-spacing: -0.03em;
 }
 
 .container{
@@ -12,7 +12,11 @@ body{
     margin: 0 auto;
 }
 
-
+*,
+*::before,
+*::after{
+    letter-spacing: -0.03em;
+}
 
 /* Resume */
 .header{
@@ -24,18 +28,20 @@ body{
 }
 
 .navigation-panel{
-    margin-bottom: 252px;
+    margin-bottom: 307px;
     padding-top: 27px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .black-background{
     display: inline-block;
-    margin-right: 507px;
     height: 39px;
     border-radius: 100px;
     background-color: #000000;
+    position: absolute;
+    top: 35px;
 }
 
 .logo-link{
@@ -55,6 +61,9 @@ body{
 .links{
     display: flex;
     align-items: center;
+    position: absolute;
+    left: 651px;
+    top: 33px;
 }
 
 .links__li{
@@ -114,6 +123,7 @@ body{
     font-weight: 400;
     font-size: 80px;
     line-height: 70px;
+    letter-spacing: -0.03em;
     color: #1BFF07;
 }
 
@@ -171,7 +181,6 @@ body{
     font-weight: 400;
     font-size: 30px;
     line-height: 39px;
-
     color: #FFFFFF;
 }
 
@@ -206,7 +215,15 @@ body{
 }
 
 .competencies{
-    margin-bottom: 60px;
+    margin-bottom: 63px;
+}
+
+.my-competencies__header{
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    color: #ffffff;
 }
 
 .competencies__header-html{
@@ -240,6 +257,9 @@ body{
 }
 
 .competencies__header-js::before{
+    position: relative;
+    left: 2;
+    top: -4px;
     margin-bottom: 12px;
     height: 44px;
     max-width: 45px;
@@ -262,6 +282,9 @@ body{
 }
 
 .competencies__header-library::before{
+    position: relative;
+    left: 2;
+    top: -4px;
     margin-bottom: 12px;
     height: 44px;
     max-width: 45px;
@@ -277,6 +300,7 @@ body{
 
 .competencies__header-mobile{
     margin-bottom: 15px;
+    width: 600px;
     font-weight: 400;
     font-size: 35px;
     line-height: 46px;
@@ -284,6 +308,9 @@ body{
 }
 
 .competencies__header-mobile::before{
+    position: relative;
+    left: 2;
+    top: -4px;
     margin-bottom: 12px;
     height: 44px;
     max-width: 45px;
@@ -302,7 +329,7 @@ body{
 }
 
 .competencies__content{
-    width: 820px;
+    width: 792px;
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
@@ -328,11 +355,15 @@ body{
 }
 
 .tasks-solved{
-    margin-bottom: 74px;
+    margin-bottom: 71px;
 }
 
 .tasks-solved:nth-child(4){
     margin-bottom: 0;
+}
+
+.tasks-solved:nth-last-child(2){
+    margin-bottom: 164px;
 }
 
 .name-description-tasks{
@@ -356,6 +387,7 @@ body{
 }
 
 .task-description{
+    width: 728px;
     max-width: 755px;
     font-weight: 400;
     font-size: 22px;
@@ -415,8 +447,9 @@ body{
 
 .footer__portfolio{
     margin-bottom: 66px;
-    padding-top: 76px;
-
+    padding-top: 75px;
+    padding-left: 2px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
@@ -425,6 +458,8 @@ body{
 
 .all-rights-reserved{
     padding-bottom: 20px;
+    padding-left: 2px;
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;

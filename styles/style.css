@@ -209,27 +209,92 @@ body{
     margin-bottom: 60px;
 }
 
-.my-competencies__header{
-    margin-bottom: 40px;
-    font-weight: 400;
-    font-size: 55px;
-    line-height: 72px;
-    color: #FFFFFF;
-}
-
-.competencies__img{
-    margin-bottom: 12px;
-    display: block;
-    max-width: 45px;
-    max-height: 44px;
-}
-
-.competencies__header{
+.competencies__header-html{
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 35px;
     line-height: 46px;
     color: #1BFF07;
+}
+
+.competencies__header-html::before{
+    margin-bottom: 12px;
+    height: 44px;
+    max-width: 45px;
+    max-height: 44px;
+
+    display: block;
+    content: "";
+    background-image: url('../resources/icon/my-competencies/icon1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.competencies__header-js{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+
+.competencies__header-js::before{
+    margin-bottom: 12px;
+    height: 44px;
+    max-width: 45px;
+    max-height: 44px;
+
+    display: block;
+    content: "";
+    background-image: url('../resources/icon/my-competencies/icon2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.competencies__header-library{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+
+.competencies__header-library::before{
+    margin-bottom: 12px;
+    height: 44px;
+    max-width: 45px;
+    max-height: 44px;
+
+    display: block;
+    content: "";
+    background-image: url('../resources/icon/my-competencies/icon3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.competencies__header-mobile{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+
+.competencies__header-mobile::before{
+    margin-bottom: 12px;
+    height: 44px;
+    max-width: 45px;
+    max-height: 44px;
+
+    display: block;
+    content: "";
+    background-image: url('../resources/icon/my-competencies/icon4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
 }
 
 .competencies__header:nth-last-child(2){

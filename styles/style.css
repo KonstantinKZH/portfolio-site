@@ -163,7 +163,7 @@ body{
     color: #FFFFFF;
 }
 
-.image-background__paragraph{
+.image-background__content{
     position: absolute;
     left: 50px;
     top: 461px;
@@ -236,7 +236,7 @@ body{
     width: 651px;
 }
 
-.competencies__paragraph{
+.competencies__content{
     width: 820px;
     font-weight: 400;
     font-size: 22px;
@@ -244,7 +244,7 @@ body{
     color: #ffffff;
 }
 
-.competencies__paragraph:nth-child(3){
+.competencies__content:nth-child(3){
     margin-bottom: 0;
 }
 
@@ -262,24 +262,20 @@ body{
     color: #ffffff;
 }
 
-.tasks-to-be-solved{
+.tasks-solved{
     margin-bottom: 74px;
 }
 
-.tasks-to-be-solved:nth-child(4){
+.tasks-solved:nth-child(4){
     margin-bottom: 0;
 }
 
-.tasks-to-be-solved__margin-bottom{
-    margin-bottom: 137px;
-}
-
-.name-and-description-of-tasks{
+.name-description-tasks{
     background-color: #191C19;
     border-radius: 30px;
 }
 
-.name-and-description-of-tasks__inner{
+.name-description-tasks__inner{
     width: 1048px;
     padding-top: 40px;
     padding-left: 40px;
@@ -303,7 +299,7 @@ body{
 }
 
 /* For communication */
-.for-communication{
+.communication{
     margin-bottom: 150px;
     height: 717px;
     position: relative;
@@ -313,12 +309,12 @@ body{
     background-position: 50%;
 }
 
-.for-communication-item{
+.communication-item{
     position: absolute;
     top: 320px;
 }
 
-.for-communication-item__text{
+.communication-item__text{
     margin-bottom: 28px;
     font-weight: 400;
     font-size: 35px;
@@ -326,7 +322,7 @@ body{
     color: #ffffff;
 }
 
-.for-communication-item__link{
+.communication-item__link{
     margin-bottom: 20px;
     display: block;
     font-weight: 400;
@@ -337,18 +333,18 @@ body{
     transition: .3s ease;
 }
 
-.for-communication-item__link:nth-child(4){
+.communication-item__link:nth-child(4){
     margin-bottom: 0px;
 }
 
-.for-communication-item__link:hover{
+.communication-item__link:hover{
     color: #1BFF07;
 }
 
 
 
 /* Footer */
-footer{
+.footer{
     background-color: #FFFFFF;
 }
 

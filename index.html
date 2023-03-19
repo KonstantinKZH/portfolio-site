@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Портфолио</title>
     <meta charset="UTF-8">
@@ -9,17 +10,17 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
     <!-- Resume -->
-    <div class="resume">
+    <header class="header">
         <div class="container">
-            <nav class="navigation-panel">
 
+            <nav class="navigation-panel">
                 <div class="black-background">
                     <a class="logo-link" href="#!">ORLOV</a>
                 </div>
-
                 <ul class="links">
                     <li class="links__li"><a class="links__link" href="#!">портфолио</a></li>
                     <li class="links__li"><a class="links__link" href="#!">компетенции</a></li>
@@ -37,173 +38,177 @@
                 </p>
                 <h1 class="greeting-title">Привет, я Константин — фронтенд разарботчик и дизайнер сайтов</h1>
             </div>
-        </div>
-    </div>
-
-
-    <!-- Recent projects -->
-    <div class="recent-projects">
-        <div class="container">
-            <h2 class="recent-projects__header">Самые свежие проекты</h2>
-            <div class="image-background">
-                <img class="image-background__img" src="resources/images/img2.png" alt="">
-                <p class="image-background__header">Realhome</p>
-                <p class="image-background__paragraph">дизайн, верстка, настройка</p>
-            </div>
-            <div class="image-background">
-                <img class="image-background__img" src="resources/images/img3.png" alt="">
-                <p class="image-background__header">GLASS</p>
-                <p class="image-background__paragraph">разработка интерфейса</p>
-            </div>
-            <div class="image-background">
-                <img class="image-background__img" src="resources/images/img4.png" alt="">
-                <p class="image-background__header">Fesiyen</p>
-                <p class="image-background__paragraph">разработка интерфейса</p>
-            </div>
-            <a class="link-btn">Смотреть все проекты</a>
-        </div>
-    </div>
-
-    <!-- My competencies -->
-    <div class="my-competencies">
-        <div class="container">
-
-            <h2 class="my-competencies__header">Мои компетенции</h2>
-
-            <div class="competencies">
-                <img class="competencies__img" src="resources/icon/my-competencies/icon1.png" alt="html">
-                <p class="competencies__header">HTML и CSS</p>
-                <p class="competencies__paragraph">
-                    это основа фронтенд разработки.
-                    Умение создавать и правильно
-                    структурировать HTML-документы,
-                    а также применять стили к этим
-                    документам на CSS, является
-                    обязательным навыком для каждого
-                    фронтенд разработчика.
-                </p>
-            </div>
-
-            <div class="competencies">
-                <img class="competencies__img" src="resources/icon/my-competencies/icon2.png" alt="js">
-                <p class="competencies__header">JavaScript</p>
-                <p class="competencies__paragraph">
-                    это язык программирования,
-                    который используется для
-                    создания динамического и
-                    интерактивного пользовательского
-                    интерфейса. Хороший фронтенд
-                    разработчик должен быть знаком
-                    с основами JavaScript, включая
-                    работу с DOM-деревом, асинхронными
-                    запросами и манипуляцией данными
-                    на стороне клиента.
-                </p>
-            </div>
-
-            <div class="competencies">
-                <img class="competencies__img" src="resources/icon/my-competencies/icon3.png" alt="library">
-                <p class="competencies__header">Работа с библиотеками и фреймворками</p>
-                <p class="competencies__paragraph">
-                    фронтенд разработчики должны быть
-                    знакомы с различными библиотеками
-                    и фреймворками, такими как React,
-                    Angular, Vue и другими. Умение
-                    использовать готовые решения,
-                    адаптировать их под нужды проекта
-                    и расширять их функциональность,
-                    является очень важным навыком.
-                </p>
-            </div>
-
-            <div class="competencies">
-                <img class="competencies__img" src="resources/icon/my-competencies/icon4.png" alt="mobile apps">
-                <p class="competencies__header">Разработка для мобильных устройств и адаптивная верстка</p>
-                <p class="competencies__paragraph">
-                    фронтенд разработчики должны быть
-                    знакомы с различными библиотеками
-                    и фреймворками, такими как React,
-                    Angular, Vue и другими. Умение
-                    использовать готовые решения,
-                    адаптировать их под нужды проекта
-                    и расширять их функциональность,
-                    является очень важным навыком.
-                </p>
-            </div>
 
         </div>
-    </div>
+    </header>
 
-    <!-- Problem solving help -->
-    <div class="problem-solving-help">
-        <div class="container">
-            <h2 class="problem-solving-help__header">Помогаю реализовать широкий спектр задач</h2>
 
-            <div class="tasks-to-be-solved">
-                <img src="resources/images/problem-solving-help/img1.png" alt="turnkey website development">
-                <div class="name-and-description-of-tasks">
-                    <div class="name-and-description-of-tasks__inner">
-                        <p class="name-task">Разработка сайта под ключ</p>
-                        <p class="task-description">
-                            Это создание дизайн веб-сайтов,
-                            созданный для удобства пользователя и
-                            решения бизнес-задач<br>
-                            Сайты должны быть понятными и
-                            удобными, ведь чем понятнее сайт,
-                            тем быстрее пользователь совершит
-                            целевое действие
-                        </p>
+    <main>
+        <!-- Recent projects -->
+        <section class="recent-projects">
+            <div class="container">
+                <h2 class="recent-projects__header">Самые свежие проекты</h2>
+                <div class="image-background">
+                    <img class="image-background__img" src="resources/images/img2.png" alt="">
+                    <p class="image-background__header">Realhome</p>
+                    <p class="image-background__paragraph">дизайн, верстка, настройка</p>
+                </div>
+                <div class="image-background">
+                    <img class="image-background__img" src="resources/images/img3.png" alt="">
+                    <p class="image-background__header">GLASS</p>
+                    <p class="image-background__paragraph">разработка интерфейса</p>
+                </div>
+                <div class="image-background">
+                    <img class="image-background__img" src="resources/images/img4.png" alt="">
+                    <p class="image-background__header">Fesiyen</p>
+                    <p class="image-background__paragraph">разработка интерфейса</p>
+                </div>
+                <a class="link-btn">Смотреть все проекты</a>
+            </div>
+        </section>
+
+        <!-- My competencies -->
+        <section class="my-competencies">
+            <div class="container">
+
+                <h2 class="my-competencies__header">Мои компетенции</h2>
+
+                <div class="competencies">
+                    <img class="competencies__img" src="resources/icon/my-competencies/icon1.png" alt="html">
+                    <p class="competencies__header">HTML и CSS</p>
+                    <p class="competencies__paragraph">
+                        это основа фронтенд разработки.
+                        Умение создавать и правильно
+                        структурировать HTML-документы,
+                        а также применять стили к этим
+                        документам на CSS, является
+                        обязательным навыком для каждого
+                        фронтенд разработчика.
+                    </p>
+                </div>
+
+                <div class="competencies">
+                    <img class="competencies__img" src="resources/icon/my-competencies/icon2.png" alt="js">
+                    <p class="competencies__header">JavaScript</p>
+                    <p class="competencies__paragraph">
+                        это язык программирования,
+                        который используется для
+                        создания динамического и
+                        интерактивного пользовательского
+                        интерфейса. Хороший фронтенд
+                        разработчик должен быть знаком
+                        с основами JavaScript, включая
+                        работу с DOM-деревом, асинхронными
+                        запросами и манипуляцией данными
+                        на стороне клиента.
+                    </p>
+                </div>
+
+                <div class="competencies">
+                    <img class="competencies__img" src="resources/icon/my-competencies/icon3.png" alt="library">
+                    <p class="competencies__header">Работа с библиотеками и фреймворками</p>
+                    <p class="competencies__paragraph">
+                        фронтенд разработчики должны быть
+                        знакомы с различными библиотеками
+                        и фреймворками, такими как React,
+                        Angular, Vue и другими. Умение
+                        использовать готовые решения,
+                        адаптировать их под нужды проекта
+                        и расширять их функциональность,
+                        является очень важным навыком.
+                    </p>
+                </div>
+
+                <div class="competencies">
+                    <img class="competencies__img" src="resources/icon/my-competencies/icon4.png" alt="mobile apps">
+                    <p class="competencies__header">Разработка для мобильных устройств и адаптивная верстка</p>
+                    <p class="competencies__paragraph">
+                        фронтенд разработчики должны быть
+                        знакомы с различными библиотеками
+                        и фреймворками, такими как React,
+                        Angular, Vue и другими. Умение
+                        использовать готовые решения,
+                        адаптировать их под нужды проекта
+                        и расширять их функциональность,
+                        является очень важным навыком.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Problem solving help -->
+        <section class="problem-solving-help">
+            <div class="container">
+                <h2 class="problem-solving-help__header">Помогаю реализовать широкий спектр задач</h2>
+
+                <div class="tasks-to-be-solved">
+                    <img src="resources/images/problem-solving-help/img1.png" alt="turnkey website development">
+                    <div class="name-and-description-of-tasks">
+                        <div class="name-and-description-of-tasks__inner">
+                            <p class="name-task">Разработка сайта под ключ</p>
+                            <p class="task-description">
+                                Это создание дизайн веб-сайтов,
+                                созданный для удобства пользователя и
+                                решения бизнес-задач<br>
+                                Сайты должны быть понятными и
+                                удобными, ведь чем понятнее сайт,
+                                тем быстрее пользователь совершит
+                                целевое действие
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="tasks-to-be-solved tasks-to-be-solved__margin-bottom">
-                <img src="resources/images/problem-solving-help/img2.png" alt="turnkey website development">
-                <div class="name-and-description-of-tasks">
-                    <div class="name-and-description-of-tasks__inner">
-                        <p class="name-task">Верстка сайтов</p>
-                        <p class="task-description">
-                            Это процесс создания HTML-документов
-                            и применения к ним стилей на CSS.
-                            Фронтенд разработчик может помочь создать
-                            привлекательный и удобный интерфейс
-                            для вашего сайта
-                        </p>
+                <div class="tasks-to-be-solved tasks-to-be-solved__margin-bottom">
+                    <img src="resources/images/problem-solving-help/img2.png" alt="turnkey website development">
+                    <div class="name-and-description-of-tasks">
+                        <div class="name-and-description-of-tasks__inner">
+                            <p class="name-task">Верстка сайтов</p>
+                            <p class="task-description">
+                                Это процесс создания HTML-документов
+                                и применения к ним стилей на CSS.
+                                Фронтенд разработчик может помочь создать
+                                привлекательный и удобный интерфейс
+                                для вашего сайта
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="tasks-to-be-solved">
-                <img src="resources/images/problem-solving-help/img3.png" alt="turnkey website development">
-                <div class="name-and-description-of-tasks">
-                    <div class="name-and-description-of-tasks__inner">
-                        <p class="name-task">Разработка мобильного интерфейса</p>
-                        <p class="task-description">
-                            Это процесс создания интерактивных
-                            элементов на странице с помощью JavaScript.
-                            Фронтенд разработчик может помочь создать динамический
-                            и удобный пользовательский интерфейс для вашего
-                            сайта или приложения.
-                        </p>
+                <div class="tasks-to-be-solved">
+                    <img src="resources/images/problem-solving-help/img3.png" alt="turnkey website development">
+                    <div class="name-and-description-of-tasks">
+                        <div class="name-and-description-of-tasks__inner">
+                            <p class="name-task">Разработка мобильного интерфейса</p>
+                            <p class="task-description">
+                                Это процесс создания интерактивных
+                                элементов на странице с помощью JavaScript.
+                                Фронтенд разработчик может помочь создать динамический
+                                и удобный пользовательский интерфейс для вашего
+                                сайта или приложения.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
             </div>
-
-        </div>
-    </div>
+        </section>
 
 
-    <!-- For communication -->
-    <div class="for-communication">
-        <div class="container">
-            <div class="for-communication-item">
-                <p class="for-communication-item__text">для связи:</p>
-                <a class="for-communication-item__link" href="#!">instagram</a>
-                <a class="for-communication-item__link" href="#!">telegram</a>
-                <a class="for-communication-item__link" href="#!">mail</a>
+        <!-- For communication -->
+        <div class="for-communication">
+            <div class="container">
+                <div class="for-communication-item">
+                    <p class="for-communication-item__text">для связи:</p>
+                    <a class="for-communication-item__link" href="#!">instagram</a>
+                    <a class="for-communication-item__link" href="#!">telegram</a>
+                    <a class="for-communication-item__link" href="#!">mail</a>
+                </div>
             </div>
         </div>
-    </div>
+
+    </main>
 
     <!-- Footer -->
     <footer>
